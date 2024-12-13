@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4F46E5"/>
+      <stop offset="100%" style="stop-color:#06B6D4"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)" style="transform-origin: center;">
+    <text x="10" y="35" font-family="Arial" font-weight="bold" font-size="28" fill="url(#logoGradient)" style="transform-style: preserve-3d;">
+      Digital<tspan fill="#06B6D4">Civitas</tspan>
+    </text>
+    <circle cx="180" cy="25" r="15" fill="url(#logoGradient)" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
